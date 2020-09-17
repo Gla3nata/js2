@@ -1,0 +1,63 @@
+body {
+    width: 1200px;
+    margin: 0 auto;
+}
+header {
+    margin-top: 25px;
+}
+header .btn-cart {
+}
+main {
+    
+}
+.products {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+a {
+    text-decoration: none;
+    outline: none;
+    background-color: transparent;
+    color: #555555;
+}
+.logo-txt {
+    font-size: 34px;
+    font-family: 'raleway-regular', 'arial', sans-serif;
+    line-height: 1.2;
+}
+.hemepage-heder {
+    min-height: 200px;
+    border-color: #363636;
+    background-color: plum;
+    box-sizing: border-box;
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding: 38px 0 0 0;
+    margin: 0px 0 2px 0;
+}
+
+.hemepage-header-wrp {
+    display: flex;
+    margin: 0 0 0 0;
+    padding: 2px 1px 3px 0;
+    justify-content: space-around;
+}
+
+
+.menu-header-list {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    margin: 0;
+    padding: 19px 17px 0 0;}
+
+
+.product-item{
+    background-color: gray;
+    border: 1px solid plum;
+    width: 300px;
+    border-radius: 3%;
+    text-align: center;
+}
