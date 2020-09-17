@@ -5,18 +5,13 @@ body {
 header {
     margin-top: 25px;
 }
-header .btn-cart {
-}
-main {
-    
-}
+
 .products {
     display: flex;
     justify-content: space-evenly;
 }
 
-a {
-    text-decoration: none;
+a { text-decoration: none;
     outline: none;
     background-color: transparent;
     color: #555555;
@@ -44,7 +39,6 @@ a {
     justify-content: space-around;
 }
 
-
 .menu-header-list {
     width: 100%;
     display: flex;
@@ -60,4 +54,9 @@ a {
     width: 300px;
     border-radius: 3%;
     text-align: center;
+}
+.buy-btn{
+   background-color: plum; 
+    width: 30%;
+    border: 1px solid blueviolet;
 }
