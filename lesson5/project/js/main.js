@@ -1,11 +1,13 @@
-const API = 'https://raw.githubusercontent.com/GeekBrainsTutorial/online-store-api/master/responses';
+const API = 'http://raw.githubusercontent.com/GeekBrainsTutorial/online-store-api/master/responses';
 
 const app = new Vue({
     el: '#app',
     data: {
         catalogUrl: '/catalogData.json',
         products: [],
-        imgCatalog: 'https://placehold.it/200x150'
+        imgCatalog: 'https://placehold.it/200x150',
+        searchLine: '',
+        isVisibleCart:  false
     },
     methods: {
         getJson(url){
@@ -17,7 +19,10 @@ const app = new Vue({
         },
         addProduct(product){
             console.log(product.id_product);
-        }
+        },
+         filterGoods(){
+             console.log(this.searchLine);
+         }
     },
     mounted(){
        this.getJson(`${API + this.catalogUrl}`)
